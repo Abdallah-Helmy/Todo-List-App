@@ -1,0 +1,39 @@
+.Todo-app {
+    width: 45%;
+}
+
+.List-Input ,
+.tasks {
+    background-color: #ddd;
+    padding: 15px;
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.List-Input input {
+    width: 83%;
+    margin-right: 15px;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+/* Start Media Queries  */
+@media (max-width: 499.9999px) {
+    .Todo-app {
+        width: 90%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 933.999px) {
+    .Todo-app {
+        width: 80%;
+    }
+}
+
+@media (min-width: 934px) and (max-width: 1400px) {
+    .Todo-app {
+        width: 70%;
+    }
+}
